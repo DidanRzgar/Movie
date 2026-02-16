@@ -50,8 +50,9 @@ function App() {
       }
 
       // Remove Romance movies (genre id 10749)
+      // Remove Romance (10749) + Adult movies
       const filteredMovies = (data.results || []).filter(
-        (movie) => !movie.genre_ids?.includes(10749),
+        (movie) => !movie.genre_ids?.includes(10749) && movie.adult !== true,
       );
 
       setMovieList(filteredMovies);

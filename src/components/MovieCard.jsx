@@ -12,7 +12,7 @@ export default function MovieCard({
             : "./Poster1.png"
         }
         alt={title}
-        className="w-full h-[300px] sm:h-[340px] md:h-[380px] object-cover rounded-xl"
+        className="w-full h-[240px] sm:h-[340px] md:h-[250px] object-cover rounded-xl"
       />
 
       <div>
