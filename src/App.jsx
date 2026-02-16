@@ -77,7 +77,7 @@ function App() {
         <header className="flex flex-col items-center text-center">
           {/* Logo */}
           <img
-            src="./logo.png"
+            src="./logo1.png"
             alt="logo"
             className="w-36 sm:w-48 md:w-56 lg:w-64 mb-4"
           />
